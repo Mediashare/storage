@@ -1,0 +1,19 @@
+{
+    "name": "kzu/storage",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MarquandT",
+            "email": "thibault@marquand.pro"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "kzu/database": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kzu\\Storage\\": "src/"
+        }
+    }
+}
